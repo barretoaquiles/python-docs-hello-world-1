@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'asi-recommender-test'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7673AD5D863C490C8B1198C6E853ED42 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_245A95F474B149038C6F8D70EB04502D }}
