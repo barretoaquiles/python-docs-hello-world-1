@@ -6,14 +6,10 @@ app = Flask(__name__)
 
 df = pd.read_pickle("model_test7.pkl")
 
-@app.route("/")
-def hello():
-    return "Hello, World!"
-
 @app.route('/tuindice', methods=['GET', 'POST'])
 def tuindice():
     if request.method == 'GET':
-        return "Get"
+        return "Intenta con un Post"
     else:
         request_data = request.get_json()
         itemId = request_data['item']
